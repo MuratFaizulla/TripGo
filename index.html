@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>TripGo</title>
+</head>
+
+<body>
+    <!-- title section -->
+    <section id="title " class="background-gradient">
+
+
+
+        <div class="container col-xxl-8 px-4 pt-5 ">
+
+            <nav class="navbar navbar-expand-lg bg-body-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">TripGo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                            <a class="nav-link" href="./direction.html">Направления</a>
+                            <a class="nav-link" href="./gallery.html">Галерея</a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./images/hero-img.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                        width="200" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Добро пожаловать в увлекательный мир
+                        путешествий!
+                    </h1>
+                    <p class="lead">Наш сайт предназначен для тех, кто ищет вдохновение, советы и незабываемые
+                        впечатления от
+                        своих приключений по всему миру.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-light btn-lg px-4 me-md-2"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-apple" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+                                <path
+                                    d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+                            </svg> Скачать </button>
+                        <button type="button" class="btn btn-outline-light btn-lg px-4"> <svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-google-play" viewBox="0 0 16 16">
+                                <path
+                                    d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295M1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+                            </svg> Скачать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- features -->
+    <section id="features">
+        <div class="container px-4 py-5" id="hanging-icons">
+
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-hourglass" viewBox="0 0 16 16">
+                            <path
+                                d="M2 1.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1-.5-.5m2.5.5v1a3.5 3.5 0 0 0 1.989 3.158c.533.256 1.011.791 1.011 1.491v.702c0 .7-.478 1.235-1.011 1.491A3.5 3.5 0 0 0 4.5 13v1h7v-1a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351v-.702c0-.7.478-1.235 1.011-1.491A3.5 3.5 0 0 0 11.5 3V2z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 text-body-emphasis">Истории</h3>
+                        <p>Ознакомьтесь с захватывающими рассказами от путешественников со всех уголков планеты.</p>
+
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-journal-check" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                            <path
+                                d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2" />
+                            <path
+                                d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 text-body-emphasis">Путеводители</h3>
+                        <p>Получите полезные советы от опытных путешественников о том, как максимально насладиться
+                            каждым этапом вашего путешествия.</p>
+
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-camera" viewBox="0 0 16 16">
+                            <path
+                                d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z" />
+                            <path
+                                d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 text-body-emphasis">Фотогалерея мира</h3>
+                        <p>Погрузитесь в красоту нашей планеты через глаза наших читателей.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="my-5">
+                        <div class="p-5 text-center bg-body-tertiary">
+                            <div class="container py-5">
+                                <h2 class="text-body-emphasis">Мир, полный впечатлений</h2>
+                                <img src="./images/person1.jpg" class="profile-img" alt="Person 1">
+                                <p class="col-lg-8 mx-auto lead">
+                                    Спасибо вам за невероятную возможность окунуться в удивительные культуры и
+                                    живописные пейзажи. Благодаря вашим советам, каждая моя поездка стала настоящим
+                                    приключением!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="my-5">
+                        <div class="p-5 text-center bg-body-tertiary">
+                            <div class="container py-5">
+                                <h2 class="text-body-emphasis">Секреты Локальной Кухни
+                                </h2>
+                                <img src="./images/person2.jpg" class="profile-img" alt="Person 2">
+                                <p class="col-lg-8 mx-auto lead">
+                                    Открывайте для себя волшебство локальных вкусов в каждом уголке мира. Ваши
+                                    рекомендации о кафе и ресторанах были как надежный компас в мире кулинарных
+                                    открытий.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="my-5">
+                        <div class="p-5 text-center bg-body-tertiary">
+                            <div class="container py-5">
+                                <h2 class="text-body-emphasis">Лучшие Путеводители</h2>
+                                <img src="./images/person3.jpg" class="profile-img" alt="Person 3">
+                                <p class="col-lg-8 mx-auto lead">
+                                    Спасибо за предоставление такого богатства информации в одном месте! Ваши
+                                    путеводители стали для меня незаменимым помощником при выборе места для следующего
+                                    приключения.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- pricing -->
+
+    <section id="pricing">
+
+        <div class="container">
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal text-body-emphasis">Путеводительские пакеты</h1>
+                <p class="fs-5 text-body-secondary">Разнообразие опций для вашего идеального путешествия</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 mb-5 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Стандартный</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">0 ₸<small
+                                    class="text-body-secondary fw-light">/мес</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>основные советы</li>
+                                <li>путеводители</li>
+                                <li>доступ к нашему сообществу</li>
+                                <li>доступ к галерее</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Подписаться
+                                бесплатно</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Культурный</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">1500 ₸ <small
+                                    class="text-body-secondary fw-light">/мес</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>5 встреч с местными жителями</li>
+                                <li>5 уроков кулинарии</li>
+                                <li>5 экскурсий</li>
+                                <li>доступ к местному сообществу</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-dark">Подписаться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                        <div class="card-header py-3 text-bg-dark border-dark">
+                            <h4 class="my-0 fw-normal">Роскошный</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">2000 ₸<small
+                                    class="text-body-secondary fw-light">/мес</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 встреч с местными жителями</li>
+                                <li>10 уроков кулинарии</li>
+                                <li>10 экскурсий</li>
+                                <li>3 фотосессии</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-dark">Подписаться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- footer -->
+    <section id="footer" class="background-gradient">
+        <div class="container ">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 ">
+                <div class="col mb-3">
+
+                    <p class="text-body-secondary">© TripGo</p>
+                </div>
+
+                <div class="col mb-3">
+
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
